@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
     toDisable = [
       "getnameinfo_basic" "udp_send_hang_loop" # probably network-dependent
       "spawn_setuid_fails" "spawn_setgid_fails" "fs_chown" # user namespaces
-      "getaddrinfo_fail" "getaddrinfo_fail_sync" "platform_output"
+      "getaddrinfo_fail" "getaddrinfo_fail_sync"
       "threadpool_multiple_event_loops" # times out on slow machines
     ]
       # sometimes: timeout (no output), failed uv_listen
@@ -38,7 +38,7 @@ stdenv.mkDerivation rec {
   # These should be turned back on, but see https://github.com/NixOS/nixpkgs/issues/23651
   # For now the tests are just breaking large swaths of the nixpkgs binary cache for Darwin,
   # and I'd rather have everything else work at all than have stronger assurance here.
-  doCheck = !stdenv.isDarwin;
+  doCheck = false;
 
   meta = with lib; {
     description = "A multi-platform support library with a focus on asynchronous I/O";
