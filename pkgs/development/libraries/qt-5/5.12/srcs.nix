@@ -29,7 +29,7 @@
   qtbase = {
     version = "5.12.7";
     src = fetchurl {
-      url = "${mirror}/official_releases/qt/5.12/5.12.7/submodules/qtbase-everywhere-src-5.12.7.tar.xz";
+      url = "${mirror}/new_archive/qt/5.12/5.12.7/submodules/qtbase-everywhere-src-5.12.7.tar.xz";
       sha256 = "b18939cb25d90aef8721fb12ec34c3632d3490ced958e41f6c7a52064643665d";
       name = "qtbase-everywhere-src-5.12.7.tar.xz";
     };
@@ -69,7 +69,7 @@
   qtdeclarative = {
     version = "5.12.7";
     src = fetchurl {
-      url = "${mirror}/official_releases/qt/5.12/5.12.7/submodules/qtdeclarative-everywhere-src-5.12.7.tar.xz";
+      url = "${mirror}/new_archive/qt/5.12/5.12.7/submodules/qtdeclarative-everywhere-src-5.12.7.tar.xz";
       sha256 = "5cdc05a035f240ab73b6b37dd3831c1350cd80e5799da47929974085f6eae9bd";
       name = "qtdeclarative-everywhere-src-5.12.7.tar.xz";
     };
@@ -149,7 +149,7 @@
   qtquickcontrols = {
     version = "5.12.7";
     src = fetchurl {
-      url = "${mirror}/official_releases/qt/5.12/5.12.7/submodules/qtquickcontrols-everywhere-src-5.12.7.tar.xz";
+      url = "${mirror}/new_archive/qt/5.12/5.12.7/submodules/qtquickcontrols-everywhere-src-5.12.7.tar.xz";
       sha256 = "1038bbc76bba53f9634f40cd9c8ebf0ed8ae82e791f727b228bd81bdcf1859e5";
       name = "qtquickcontrols-everywhere-src-5.12.7.tar.xz";
     };
@@ -221,7 +221,7 @@
   qtsvg = {
     version = "5.12.7";
     src = fetchurl {
-      url = "${mirror}/official_releases/qt/5.12/5.12.7/submodules/qtsvg-everywhere-src-5.12.7.tar.xz";
+      url = "${mirror}/new_archive/qt/5.12/5.12.7/submodules/qtsvg-everywhere-src-5.12.7.tar.xz";
       sha256 = "4bf60916d4e398d9609f1b3a17fc7345a0e13c7c1cc407298df20da4c7c67bb8";
       name = "qtsvg-everywhere-src-5.12.7.tar.xz";
     };
@@ -229,7 +229,7 @@
   qttools = {
     version = "5.12.7";
     src = fetchurl {
-      url = "${mirror}/official_releases/qt/5.12/5.12.7/submodules/qttools-everywhere-src-5.12.7.tar.xz";
+      url = "${mirror}/new_archive/qt/5.12/5.12.7/submodules/qttools-everywhere-src-5.12.7.tar.xz";
       sha256 = "860a97114d518f83c0a9ab3742071da16bb018e6eb387179d5764a8dcca03948";
       name = "qttools-everywhere-src-5.12.7.tar.xz";
     };
@@ -253,7 +253,7 @@
   qtwayland = {
     version = "5.12.7";
     src = fetchurl {
-      url = "${mirror}/official_releases/qt/5.12/5.12.7/submodules/qtwayland-everywhere-src-5.12.7.tar.xz";
+      url = "${mirror}/new_archive/qt/5.12/5.12.7/submodules/qtwayland-everywhere-src-5.12.7.tar.xz";
       sha256 = "fc1ab8e25461580e37090e4f82422411dee71a3de48a54be1f4b6569e00f66c5";
       name = "qtwayland-everywhere-src-5.12.7.tar.xz";
     };
