@@ -1,4 +1,4 @@
-{ fetchurl, stdenv, slang, popt }:
+{ fetchurl, stdenv, slang, popt, tcl-8_5 }:
 
 stdenv.mkDerivation rec {
   pname = "newt";
@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
     sed -i -e s,/usr/bin/install,install, -e s,-I/usr/include/slang,, Makefile.in po/Makefile
   '';
 
-  buildInputs = [ slang popt ];
+  buildInputs = [ slang popt tcl-8_5 ];
 
   NIX_LDFLAGS = "-lncurses";
 
