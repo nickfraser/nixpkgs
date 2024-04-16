@@ -15,6 +15,7 @@
 , SystemConfiguration
 , CoreFoundation
 , JavaScriptCore
+, perl
 }:
 
 stdenv.mkDerivation rec {
@@ -40,6 +41,7 @@ stdenv.mkDerivation rec {
     pcre
     python3
     zlib
+    perl
   ] ++ (if stdenv.hostPlatform.isDarwin then [
     SystemConfiguration
     CoreFoundation
