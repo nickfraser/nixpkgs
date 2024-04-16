@@ -309,7 +309,7 @@
   qtx11extras = {
     version = "5.12.7";
     src = fetchurl {
-      url = "${mirror}/official_releases/qt/5.12/5.12.7/submodules/qtx11extras-everywhere-src-5.12.7.tar.xz";
+      url = "http://master.qt.io/archive/qt/5.12/5.12.7/submodules/qtx11extras-everywhere-src-5.12.7.tar.xz";
       sha256 = "23895f4b1e84f3783526b9e17680df38c587601d4dfa6ff1b81ace432c480b96";
       name = "qtx11extras-everywhere-src-5.12.7.tar.xz";
     };
