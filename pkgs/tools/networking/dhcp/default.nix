@@ -1,6 +1,6 @@
 { stdenv, fetchurl, perl, file, nettools, iputils, iproute, makeWrapper
 , coreutils, gnused, openldap ? null
-, buildPackages, lib
+, buildPackages, lib, zlib
 }:
 
 stdenv.mkDerivation rec {
@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
 
   nativeBuildInputs = [ perl ];
 
-  buildInputs = [ makeWrapper openldap ];
+  buildInputs = [ makeWrapper openldap zlib ];
 
   depsBuildBuild = [ buildPackages.stdenv.cc ];
 
