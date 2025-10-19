@@ -67,7 +67,7 @@ stdenv.mkDerivation rec {
     ./patches/3.0-immodules.cache.patch
     (fetchpatch {
       name = "Xft-setting-fallback-compute-DPI-properly.patch";
-      url = "https://bug757142.bugzilla-attachments.gnome.org/attachment.cgi?id=344123";
+      url = "https://raw.githubusercontent.com/NixOS/nixpkgs/f2f811ccc347f22adbd2fd65bfe26244e1163944/pkgs/development/libraries/gtk/patches/3.0-Xft-setting-fallback-compute-DPI-properly.patch";
       sha256 = "0g6fhqcv8spfy3mfmxpyji93k8d4p4q4fz1v9a1c1cgcwkz41d7p";
     })
 
