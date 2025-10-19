@@ -75,11 +75,8 @@
 
   # kernel.org's /pub (/pub/{linux,software}) tree.
   kernel = [
-    http://cdn.kernel.org/pub/
-    http://www.all.kernel.org/pub/
-    http://ramses.wh2.tu-dresden.de/pub/mirrors/kernel.org/
+    https://cdn.kernel.org/pub/
     http://linux-kernel.uio.no/pub/
-    http://kernel.osuosl.org/pub/
     ftp://ftp.funet.fi/pub/mirrors/ftp.kernel.org/pub/
   ];
 
