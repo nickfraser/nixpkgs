@@ -41,15 +41,16 @@
     # mirror.
     https://ftpmirror.gnu.org/
 
-    http://ftp.nluug.nl/pub/gnu/
-    http://mirrors.kernel.org/gnu/
-    ftp://mirror.cict.fr/gnu/
-    ftp://ftp.cs.tu-berlin.de/pub/gnu/
-    ftp://ftp.chg.ru/pub/gnu/
-    ftp://ftp.funet.fi/pub/mirrors/ftp.gnu.org/gnu/
+    https://ftp.nluug.nl/pub/gnu/
+    https://mirrors.kernel.org/gnu/
+    https://mirror.ibcp.fr/pub/gnu/
+    https://mirror.dogado.de/gnu/
+    https://mirror.tochlab.net/pub/gnu/
 
     # This one is the master repository, and thus it's always up-to-date.
-    http://ftp.gnu.org/pub/gnu/
+    https://ftp.gnu.org/pub/gnu/
+
+    ftp://ftp.funet.fi/pub/mirrors/ftp.gnu.org/gnu/
   ];
 
   # GCC.
