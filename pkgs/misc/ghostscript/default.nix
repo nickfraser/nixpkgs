@@ -54,7 +54,7 @@ stdenv.mkDerivation rec {
     ./doc-no-ref.diff
     (fetchpatch {
       name = "CVE-2019-14869.patch";
-      url = "https://git.ghostscript.com/?p=ghostpdl.git;a=patch;h=485904772c5f0aa1140032746e5a0abfc40f4cef";
+      url = "https://github.com/ArtifexSoftware/ghostpdl/commit/485904772c5f0aa1140032746e5a0abfc40f4cef.patch";
       sha256 = "0z5gnvgpp0dlzgvpw9a1yan7qyycv3mf88l93fvb1kyay893rshp";
     })
   ];
