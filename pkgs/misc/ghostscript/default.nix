@@ -52,11 +52,12 @@ stdenv.mkDerivation rec {
     })
     ./urw-font-files.patch
     ./doc-no-ref.diff
-    (fetchpatch {
-      name = "CVE-2019-14869.patch";
-      url = "https://github.com/ArtifexSoftware/ghostpdl/commit/485904772c5f0aa1140032746e5a0abfc40f4cef.patch";
-      sha256 = "0z5gnvgpp0dlzgvpw9a1yan7qyycv3mf88l93fvb1kyay893rshp";
-    })
+    # Patch fails. TODO: find new source of CVE-2019-14869.patch fix
+    #(fetchpatch {
+    #  name = "CVE-2019-14869.patch";
+    #  url = "https://github.com/ArtifexSoftware/ghostpdl/commit/485904772c5f0aa1140032746e5a0abfc40f4cef.patch";
+    #  sha256 = "0z5gnvgpp0dlzgvpw9a1yan7qyycv3mf88l93fvb1kyay893rshp";
+    #})
   ];
 
   outputs = [ "out" "man" "doc" ];
