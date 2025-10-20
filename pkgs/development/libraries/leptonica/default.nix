@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
     owner = "DanBloomBerg";
     repo = "leptonica";
     rev = version;
-    hash = "sha256-meiSi0qL4i/KCMe5wsRK1/mbuRLHUb55DDOnxkrXZSs=";
+    sha256 = "0pnab40fyn6jzprm1xm5ij98jndbmy6w5hgiviy9j7vd3gpfzn7q";
   };
 
   nativeBuildInputs = [ autoreconfHook pkgconfig ];
