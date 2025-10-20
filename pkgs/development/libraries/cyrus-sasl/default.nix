@@ -29,7 +29,7 @@ stdenv.mkDerivation rec {
     ./cyrus-sasl-ac-try-run-fix.patch
     (fetchpatch {
       name = "CVE-2019-19906.patch";
-      url = "https://sources.debian.org/data/main/c/cyrus-sasl2/2.1.27+dfsg-1+deb10u1/debian/patches/0021-CVE-2019-19906.patch";
+      url = "https://sources.debian.org/data/main/c/cyrus-sasl2/2.1.27+dfsg-1+deb10u2/debian/patches/0021-CVE-2019-19906.patch";
       sha256 = "1n4c5wg7l9j8rlbvx8i605j5d39xmj5wm618k8acxl4fmglcmfls";
     })
   ];
