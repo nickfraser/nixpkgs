@@ -39,11 +39,11 @@ stdenv.mkDerivation {
     urls = [
       "ftp://ftp.freedesktop.org/pub/mesa/mesa-${version}.tar.xz"
       "ftp://ftp.freedesktop.org/pub/mesa/${version}/mesa-${version}.tar.xz"
-      "ftp://ftp.freedesktop.org/pub/mesa/older-versions/${branch}.x/${version}/mesa-${version}.tar.xz"
+      "ftp://ftp.freedesktop.org/pub/mesa/older-versions/${branch}.x/mesa-${version}.tar.xz"
       "https://mesa.freedesktop.org/archive/mesa-${version}.tar.xz"
       "https://mesa.freedesktop.org/archive/older-versions/mesa-${version}.tar.xz"
       "https://archive.mesa3d.org/mesa-${version}.tar.xz"
-      "https://archive.mesa3d.org/older-versions/${branch}.x/${version}/mesa-${version}.tar.xz"
+      "https://archive.mesa3d.org/older-versions/${branch}.x/mesa-${version}.tar.xz"
     ];
     sha256 = "1dn6975sj25kx6a6x5054ql27lqlshkp5m8cg8nwhwdranq9b600";
   };
